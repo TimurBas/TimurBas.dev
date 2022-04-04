@@ -11,10 +11,6 @@ const Home: NextPage = () => {
         <meta name="description" content="Personal Website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <footer className={styles.footer}>
-        <p>© Copyright 2022 by Timur Bas</p>
-      </footer>
     </div>
   )
 }
