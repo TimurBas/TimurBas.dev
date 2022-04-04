@@ -1,8 +1,13 @@
+import { Box } from "@chakra-ui/react";
+import SearchButton from "./SearchButton";
 import ThemeButton from "./ThemeButton";
 
 const NavigationBar = () => {
     return (
-        <ThemeButton />
+        <Box>
+            <SearchButton />
+            <ThemeButton />
+        </Box>
     )
 }
 
