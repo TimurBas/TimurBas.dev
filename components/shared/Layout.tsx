@@ -1,4 +1,4 @@
-import NavigationBar from "../navigation/NavigationBar"
+import NavigationBar from "../navigation/Bar"
 import { Box, Center } from "@chakra-ui/react"
 import { ReactNode } from "react"
 
