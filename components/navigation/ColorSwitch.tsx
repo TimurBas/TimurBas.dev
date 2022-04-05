@@ -6,9 +6,9 @@ const ColorSwitch = () => {
 
     return (
         colorMode === "light" ?
-            <IconButton _hover={{ filter: "invert(20%)" }} transition="ease 0.4s" aria-label="switch" bg="rgb(32,32,35)" borderRadius={5} icon={<MoonIcon color="orange.300" w={6} h={6} />} onClick={toggleColorMode} _focus={{ boxShadow: "none", }} />
+            <IconButton _hover={{ filter: "invert(20%)" }} transition="ease 0.2s" aria-label="switch" bg="rgb(32,32,35)" borderRadius={5} icon={<MoonIcon color="orange.300" w={6} h={6} />} onClick={toggleColorMode} _focus={{ boxShadow: "none", }} />
             :
-            <IconButton _hover={{ filter: "invert(20%)" }} transition="ease 0.4s" aria-label="switch" bg="orange.300" borderRadius={5} icon={<SunIcon color="blackAlpha.700" w={6} h={6} />} onClick={toggleColorMode} _focus={{ boxShadow: "none", }} />
+            <IconButton _hover={{ filter: "invert(20%)" }} transition="ease 0.2s" aria-label="switch" bg="orange.300" borderRadius={5} icon={<SunIcon color="blackAlpha.700" w={6} h={6} />} onClick={toggleColorMode} _focus={{ boxShadow: "none", }} />
     )
 }
 

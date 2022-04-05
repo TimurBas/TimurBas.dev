@@ -3,6 +3,7 @@ import type { AppProps } from 'next/app'
 import Layout from "../components/shared/Layout"
 import theme from "../styles/Theme"
 import '../styles/globals.scss'
+import { Head } from "next/document"
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
