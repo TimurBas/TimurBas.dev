@@ -1,6 +1,7 @@
 import { Flex, Text } from "@chakra-ui/react"
-import Biography from "./Biography"
-import Avatar from "./Avatar"
+import Biography from "./presentation/Biography"
+import Avatar from "./presentation/Avatar"
+import GitHubLink from "./information/GithubLink"
 
 const Hero = () => {
     return (
@@ -10,9 +11,7 @@ const Hero = () => {
                 <Biography />
             </Flex >
             <Flex w="70%" p={3}>
-                <Text>
-                    Lorem Ipsum doler sit amet
-                </Text>
+                <GitHubLink />
             </Flex>
         </Flex >
     )
