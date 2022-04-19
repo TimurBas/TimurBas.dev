@@ -1,12 +1,12 @@
-import { Box, Heading, Image } from "@chakra-ui/react";
+import { Box, Flex, Heading, Image } from "@chakra-ui/react";
 
 const Tools = () => {
   return (
-    <Box>
+    <Flex>
       <Heading>Tools</Heading>
-      <Image src="/git.svg" boxSize="100px" />
-      <Image src="/github.svg" boxSize="100px" />
-    </Box>
+      <Image src="/git.svg" boxSize="50px" />
+      <Image src="/github.svg" boxSize="50px" />
+    </Flex>
   );
 };
 

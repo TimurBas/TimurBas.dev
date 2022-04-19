@@ -2,7 +2,7 @@ import { extendTheme, textDecoration, type ThemeConfig } from "@chakra-ui/react"
 import { mode, Styles, GlobalStyleProps } from "@chakra-ui/theme-tools"
 
 const config: ThemeConfig = {
-  initialColorMode: "light",
+  initialColorMode: "dark",
   useSystemColorMode: false,
 }
 

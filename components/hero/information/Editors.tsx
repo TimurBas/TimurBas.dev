@@ -1,12 +1,12 @@
-import { Box, Heading, Image } from "@chakra-ui/react";
+import { Box, Flex, Heading, Image } from "@chakra-ui/react";
 
 const Editors = () => {
   return (
-    <Box>
+    <Flex>
       <Heading>Editors</Heading>
-      <Image src="/vsc.svg" boxSize="100px" />
-      <Image src="/vs.svg" boxSize="100px" />
-    </Box>
+      <Image src="/vsc.svg" boxSize="50px" />
+      <Image src="/vs.svg" boxSize="50px" />
+    </Flex>
   );
 };
 

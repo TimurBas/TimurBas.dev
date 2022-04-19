@@ -6,14 +6,14 @@ import { FaGithub } from "react-icons/fa"
 const GitHubLink = () => {
     return (
         <Flex alignItems="center">
+            <FaGithub />
             <NextLink href="https://github.com/TimurBas/TimurBas.dev" passHref>
-                <Link style={{textDecoration: "none"}} _hover={{ filter: "invert(20%)" }} transition="ease 0.4s" mr={2} isExternal={true}>
+                <Link style={{ textDecoration: "none" }} _hover={{ filter: "invert(20%)" }} transition="ease 0.4s" ml={1} isExternal={true}>
                     <Text>
-                        View the site's code
+                        Source
                     </Text>
                 </Link>
             </NextLink>
-            <FaGithub />
         </Flex>
     )
 }
